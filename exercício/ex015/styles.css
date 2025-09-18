@@ -1,0 +1,17 @@
+    @charset "UTF-8";
+        /* CSS Document */
+    
+    body {
+            background-color: aquamarine;
+            font-family: Arial, sans-serif;
+            font-size: large;
+        }
+        h1 {
+            color: deeppink;
+        }
+        h2 {
+            color: saddlebrown;
+        }
+        p {
+            text-align: justify;
+        }

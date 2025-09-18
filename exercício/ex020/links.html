@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+
+    <style>
+
+        /* SELETORES PERSONALIZADOS
+        # = id
+        . = class
+        : = pseudo-classe
+        :: = pseudo-elemento
+        > = filho direto
+        Espaço = descendente (filho, neto, bisneto...)
+        */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        a {
+            text-decoration: none;
+            color: blue;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: purple;
+        }
+
+        a:hover {
+            color: red;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: orange;
+        }
+
+        a::after {
+            content: " (link externo)";
+            font-size: 0.8em;
+            color: gray;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://x.com/eduuardjo" target="_blank">Twitter</a></li>
+        <li><a href="https://www.youtube.com/@roachzje" target="_blank">Youtube</a></li>
+        <li><a href="https://www.instagram.com/eduuardjo/" target="_blank">Instagram</a></li>
+    </ul>
+    
+</body>
+</html>

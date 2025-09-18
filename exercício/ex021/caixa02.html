@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+
+        }
+        nav {
+            text-decoration: none;
+            background-color: rgba(138, 139, 139, 0.342);
+            color: rgba(255, 255, 255, 0.514);
+            font-weight: bold;
+            box-shadow: 5px 3px 7px 1px black;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: rgb(36, 28, 59);
+            text-decoration: underline;
+            margin-right: 30px;
+            
+
+        }
+
+        nav > a:hover {
+            color: blue;
+            text-decoration: underline;
+
+        }
+
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.432);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 14px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        #bola {
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            border-radius: 50%;
+            margin: 10px
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+
+
+    </header>
+
+    <main>
+        <section id="Assuntos">
+            <p>Conteúdo da seção de assuntos</p>
+
+        </section>
+        <section id="notícias">
+            <article>
+                <aside>
+                    <h2>Notícia 1</h2>
+                    <p>Conteúdo da notícia 1</p>
+                </aside>
+            </article>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>Meu rodapé</p>
+    </footer>
+    <div id="bola"></div>
+
+
+</body>
+</html>
