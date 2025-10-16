@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meu primeiro formulário</h1>
+
+    <!-- Utilizar o method get para enviar dados pela URL e post para enviar dados de forma mais segura -->
+
+    <!-- dados por get suportam até 3000 caracteres e não utilizar para envio de fotos/arquivos -->
+
+    <!-- Utilizar o method post sempre que os dados forem sensíveis-->
+    
+    <form action="cadastro.php" method="get" autocomplete="off">
+        <p><label for="inome">Nome:</label> 
+            <input type="text" name="nome" id="inome"></p>
+        <p><label for="isobrenome">Sobrenome:</label> 
+            <input type="text" name="isobrenome" id="isobrenome"></p>
+        <p><input type="submit" value="Enviar"></p>
+
+    </form>
+    
+</body>
+</html>
